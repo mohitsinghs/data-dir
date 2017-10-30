@@ -1,6 +1,6 @@
 {
   "name": "data-dir",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "read data from multiple yaml files",
   "main": "index.js",
   "scripts": {
