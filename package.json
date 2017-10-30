@@ -23,6 +23,5 @@
   "homepage": "https://github.com/mohitsinghs/data-dir#readme",
   "dependencies": {
     "js-yaml": "^3.9.1"
-  },
-  "devDependencies": {}
+  }
 }
