@@ -4,7 +4,7 @@
   "description": "read data from multiple yaml files",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\""
+    "test": "standard --fix"
   },
   "repository": {
     "type": "git",
@@ -15,13 +15,16 @@
     "yml",
     "data"
   ],
-  "author": "Mohit Singh <mohit@mohitsingh.in> (https://mohitsingh.in)",
+  "author": "Mohit Singh <mohit@mohitsingh.in> (https://mohitsingh.in/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mohitsinghs/data-dir/issues"
   },
   "homepage": "https://github.com/mohitsinghs/data-dir#readme",
   "dependencies": {
-    "js-yaml": "^3.9.1"
+    "js-yaml": "^3.10.0"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
   }
 }
