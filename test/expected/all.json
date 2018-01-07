@@ -1,0 +1,40 @@
+{
+  "name": {
+    "name": "john",
+    "nick": "jd",
+    "surname": "doe"
+  },
+  "shapes": {
+    "boxes": [
+      {
+        "color": "red",
+        "height": 10,
+        "width": 50
+      },
+      {
+        "color": "green",
+        "height": 20,
+        "width": 30
+      },
+      {
+        "color": "blue",
+        "height": 40,
+        "width": 30
+      }
+    ],
+    "circles": [
+      {
+        "color": "red",
+        "redius": 10
+      },
+      {
+        "color": "green",
+        "redius": 20
+      },
+      {
+        "color": "blue",
+        "redius": 30
+      }
+    ]
+  }
+}

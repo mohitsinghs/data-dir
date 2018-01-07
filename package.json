@@ -1,10 +1,12 @@
 {
   "name": "data-dir",
   "version": "1.0.1",
-  "description": "read data from multiple yaml files",
+  "description": "read data from json and yaml files recursively",
   "main": "index.js",
   "scripts": {
-    "test": "standard --fix"
+    "pretest": "standard --fix",
+    "test": "nyc ava -v",
+    "posttest": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
   },
   "repository": {
     "type": "git",
@@ -25,6 +27,9 @@
     "js-yaml": "^3.10.0"
   },
   "devDependencies": {
+    "ava": "^0.24.0",
+    "codecov": "^3.0.0",
+    "nyc": "^11.4.1",
     "standard": "^10.0.3"
   }
 }
