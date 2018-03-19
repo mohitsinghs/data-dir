@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "pretest": "standard --fix",
-    "test": "nyc ava -v",
-    "posttest": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
+    "test": "ava -v"
   },
   "repository": {
     "type": "git",
@@ -28,8 +27,6 @@
   },
   "devDependencies": {
     "ava": "^0.25.0",
-    "codecov": "^3.0.0",
-    "nyc": "^11.5.0",
-    "standard": "^10.0.3"
+    "standard": "^11.0.1"
   }
 }
