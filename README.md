@@ -5,17 +5,19 @@
 [![codecov](https://codecov.io/gh/mohitsinghs/data-dir/branch/master/graph/badge.svg)](https://codecov.io/gh/mohitsinghs/data-dir)
 [![dependencies Status](https://david-dm.org/mohitsinghs/data-dir/status.svg)](https://david-dm.org/mohitsinghs/data-dir)
 [![devDependencies Status](https://david-dm.org/mohitsinghs/data-dir/dev-status.svg)](https://david-dm.org/mohitsinghs/data-dir?type=dev)
-[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![license MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/mohitsinghs/mohitsinghs.github.io/blob/source/LICENSE)
+
 > Read data from json and yaml files recursively
 
 ## Install
 
-```s
-npm i -D data-dir
+```sh
+npm install data-dir
 ```
 
 ## Uses
+
 For each file the filename becomes the key and data from file becomes value.
 
 ```js

@@ -4,8 +4,7 @@
   "description": "read data from json and yaml files recursively",
   "main": "index.js",
   "scripts": {
-    "pretest": "standard --fix",
-    "test": "ava -v"
+    "test": "eslint --fix . && ava -v"
   },
   "repository": {
     "type": "git",
@@ -23,10 +22,13 @@
   },
   "homepage": "https://github.com/mohitsinghs/data-dir#readme",
   "dependencies": {
-    "js-yaml": "^3.10.0"
+    "js-yaml": "^3.12.0"
   },
   "devDependencies": {
     "ava": "^0.25.0",
-    "standard": "^11.0.1"
+    "eslint": "^5.0.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.1",
+    "prettier": "^1.13.6"
   }
 }
