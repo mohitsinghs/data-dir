@@ -10,11 +10,9 @@ function processDir(dir) {
     const filepath = path.resolve(dir, file)
     if (fs.lstatSync(filepath).isFile() && pattern.test(path.extname(file))) {
       const fileContent = fs.readFileSync(filepath, 'utf-8')
-      if (/\.json/.test(path.extname(file))) {
-        data[path.parse(file).name] = JSON.parse(fileContent)
-      } else {
-        data[path.parse(file).name] = yaml.safeLoad(fileContent)
-      }
+      data[path.parse(file).name] = /\.json/.test(path.extname(file))
+        ? JSON.parse(fileContent)
+        : yaml.safeLoad(fileContent)
     }
     if (fs.lstatSync(filepath).isDirectory()) {
       data[path.parse(file).name] = processDir(filepath)
