@@ -1,10 +1,9 @@
-'use strict'
 const path = require('path')
 const fs = require('fs')
 const yaml = require('js-yaml')
 const pattern = /\.json|\.yml|\.yaml/
 
-function processDir(dir) {
+function processDir (dir) {
   let data = {}
   fs.readdirSync(dir).forEach(file => {
     const filepath = path.resolve(dir, file)

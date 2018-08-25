@@ -5,7 +5,7 @@
 [![codecov](https://codecov.io/gh/mohitsinghs/data-dir/branch/master/graph/badge.svg)](https://codecov.io/gh/mohitsinghs/data-dir)
 [![dependencies Status](https://david-dm.org/mohitsinghs/data-dir/status.svg)](https://david-dm.org/mohitsinghs/data-dir)
 [![devDependencies Status](https://david-dm.org/mohitsinghs/data-dir/dev-status.svg)](https://david-dm.org/mohitsinghs/data-dir?type=dev)
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![license MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/mohitsinghs/mohitsinghs.github.io/blob/source/LICENSE)
 
 > Read data from json and yaml files recursively

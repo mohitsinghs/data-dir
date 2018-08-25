@@ -7,7 +7,7 @@
     "node": ">=6"
   },
   "scripts": {
-    "test": "eslint --fix . && ava -v"
+    "test": "standard --fix && ava -v"
   },
   "repository": {
     "type": "git",
@@ -29,9 +29,6 @@
   },
   "devDependencies": {
     "ava": "^0.25.0",
-    "eslint": "^5.0.1",
-    "eslint-config-prettier": "^2.9.0",
-    "eslint-plugin-prettier": "^2.6.1",
-    "prettier": "^1.13.7"
+    "standard": "^11.0.1"
   }
 }
