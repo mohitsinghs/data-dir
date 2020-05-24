@@ -3,9 +3,9 @@ const fs = require('fs')
 const yaml = require('js-yaml')
 const pattern = /\.json|\.yml|\.yaml/
 
-function processDir (dir) {
-  let data = {}
-  fs.readdirSync(dir).forEach(file => {
+function processDir(dir) {
+  const data = {}
+  fs.readdirSync(dir).forEach((file) => {
     const filepath = path.resolve(dir, file)
     if (fs.lstatSync(filepath).isFile() && pattern.test(path.extname(file))) {
       const fileContent = fs.readFileSync(filepath, 'utf-8')
