@@ -1,6 +1,6 @@
 # data-dir
 
-[![Build Status](https://travis-ci.com/mohitsinghs/data-dir.svg)](https://travis-ci.com/mohitsinghs/data-dir)
+![ci](https://github.com/mohitsinghs/data-dir/workflows/ci/badge.svg)
 [![npm](https://badge.fury.io/js/data-dir.svg)](http://badge.fury.io/js/data-dir)
 [![codecov](https://codecov.io/gh/mohitsinghs/data-dir/branch/master/graph/badge.svg)](https://codecov.io/gh/mohitsinghs/data-dir)
 [![dependencies Status](https://david-dm.org/mohitsinghs/data-dir/status.svg)](https://david-dm.org/mohitsinghs/data-dir)
