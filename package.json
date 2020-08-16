@@ -28,7 +28,7 @@
     "js-yaml": "^3.14.0"
   },
   "devDependencies": {
-    "codecov": "^3.7.1",
-    "jest": "^26.1.0"
+    "codecov": "^3.7.2",
+    "jest": "^26.4.0"
   }
 }
