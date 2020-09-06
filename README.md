@@ -1,13 +1,18 @@
-# data-dir
-
-![ci](https://github.com/mohitsinghs/data-dir/workflows/ci/badge.svg)
-[![npm](https://badge.fury.io/js/data-dir.svg)](http://badge.fury.io/js/data-dir)
-[![codecov](https://codecov.io/gh/mohitsinghs/data-dir/branch/master/graph/badge.svg)](https://codecov.io/gh/mohitsinghs/data-dir)
-[![dependencies Status](https://david-dm.org/mohitsinghs/data-dir/status.svg)](https://david-dm.org/mohitsinghs/data-dir)
-[![devDependencies Status](https://david-dm.org/mohitsinghs/data-dir/dev-status.svg)](https://david-dm.org/mohitsinghs/data-dir?type=dev)
-[![license MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/mohitsinghs/mohitsinghs.github.io/blob/source/LICENSE)
-
-> Read data from json and yaml files recursively
+<h1 align="center">data-dir</h1>
+<p align="center">
+  <br>
+  <br>
+  <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/mohitsinghs/data-dir/ci?style=flat-square">
+  <a href="https://www.npmjs.com/package/data-dir"><img src="https://img.shields.io/npm/v/data-dir.svg?style=flat-square" alt="npm version"></a>
+  <a href="https://david-dm.org/mohitsinghs/data-dir"><img src="https://img.shields.io/david/mohitsinghs/data-dir?style=flat-square" alt="dependencies Status"></a>
+  <a href="https://david-dm.org/mohitsinghs/data-dir?type=dev"><img src="https://img.shields.io/david/dev/mohitsinghs/data-dir?style=flat-square" alt="dev dependencies Status"></a>
+  <img alt="Codecov" src="https://img.shields.io/codecov/c/gh/mohitsinghs/data-dir?style=flat-square">
+  <img alt="node-current" src="https://img.shields.io/node/v/data-dir?style=flat-square">
+  <a href="https://github.com/mohitsinghs/data-dir/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square" alt="license MIT"></a>
+</p>
+<p align="center">
+  <b>Read data from json and yaml files recursively</b><br/>
+</p>
 
 ## Install
 
