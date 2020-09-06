@@ -1,7 +1,5 @@
 <h1 align="center">data-dir</h1>
 <p align="center">
-  <br>
-  <br>
   <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/mohitsinghs/data-dir/ci?style=flat-square">
   <a href="https://www.npmjs.com/package/data-dir"><img src="https://img.shields.io/npm/v/data-dir.svg?style=flat-square" alt="npm version"></a>
   <a href="https://david-dm.org/mohitsinghs/data-dir"><img src="https://img.shields.io/david/mohitsinghs/data-dir?style=flat-square" alt="dependencies Status"></a>
@@ -12,6 +10,8 @@
 </p>
 <p align="center">
   <b>Read data from json and yaml files recursively</b><br/>
+  <br>
+  <br>
 </p>
 
 ## Install

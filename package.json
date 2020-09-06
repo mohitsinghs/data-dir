@@ -4,7 +4,7 @@
   "description": "read data from json and yaml files recursively",
   "main": "index.js",
   "engines": {
-    "node": ">=6"
+    "node": ">=10"
   },
   "scripts": {
     "test": "jest --coverage"
